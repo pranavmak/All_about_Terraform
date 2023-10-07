@@ -1,6 +1,6 @@
-# Terraform
+# All About Terraform
 
-## Topic 1: Getting Started with Terraform
+## Topic 1: Introduction to Terraform
 
 #### Introduction to Terraform and IaC
 
