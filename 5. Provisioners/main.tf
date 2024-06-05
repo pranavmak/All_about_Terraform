@@ -1,11 +1,15 @@
 # Define the AWS provider configuration.
+
 provider "aws" {
   region = "us-east-1"  # Replace with your desired AWS region.
 }
+# Define the variables.
 
 variable "cidr" {
   default = "10.0.0.0/16"
 }
+
+# Define the AWS resources configuration.
 
 resource "aws_key_pair" "example" {
   key_name   = "terraform-demo-abhi"  # Replace with your desired key name
